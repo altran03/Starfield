@@ -34,7 +34,7 @@ class Particle
   Particle(){
     xpos = 500;
     ypos = 500;
-    Bcolor = color ((int)(Math.random()*255)+1, (int)(Math.random()*255)+1, (int)(Math.random()*255)+1,50);
+    Bcolor = color ((int)(Math.random()*255)+1, (int)(Math.random()*255)+1, (int)(Math.random()*255)+1);
     angle = (Math.random()*2*PI);
     speed = Math.random()*5;
     xradius = 20;
@@ -61,7 +61,7 @@ class OddballParticle extends Particle //inherits from Particle
   OddballParticle(){
     xpos = 500;
     ypos= 500;
-    Bcolor = color ((int)(Math.random()*255)+1, (int)(Math.random()*255)+1, (int)(Math.random()*255)+1,50);
+    Bcolor = color ((int)(Math.random()*255)+1, (int)(Math.random()*255)+1, (int)(Math.random()*255)+1);
     angle = (Math.random()*2*PI);
     speed = (Math.random()*5);
     xradius = 20;
