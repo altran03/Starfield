@@ -49,7 +49,7 @@ void move(){
   xpos = xpos + Math.cos(angle)*speed;
   ypos = ypos + Math.sin(angle)*speed;
   }
-  else if ((xpos > 1000 || xpos < 0) && (ypos > 1000 || ypos < 0)){
+  else if ((xpos > 1000 || xpos < 0) || (ypos > 1000 || ypos < 0)){
     xpos = 500;
     ypos = 500;
 
